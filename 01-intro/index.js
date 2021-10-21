@@ -841,7 +841,7 @@ if (currency1 !== currency2) {
         case 'EUR':
         case 'UAH':
             switch (currency2) {
-                case 'UAH':
+                case 'USD':
                 case 'EUR':
                 case 'UAH':
                     alert(`${amount} ${currency1} = ${result} ${currency2}`);
